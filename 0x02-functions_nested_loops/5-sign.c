@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print-sign - prints a sign of a number
+ * print_sign-prints the sign of a numver
  *
  * @n: the int to check
  *
- * Return: 1 and print + if n is greater than zero
+ * Return: 1 and prints + if n is greater than zero
  *
- * 0 and print 0 if n is zero
+ * 0 and prints 0 if n is zero
  *
  * -1 and prints - if n is less than zero
  */
