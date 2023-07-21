@@ -2,7 +2,7 @@
 
 int _putchar(char c);
 
-int _isdigit(int c)
+int _isdigit(int c);
 
 {
 	/* Check if c is within the ASCII range for digits '0' to '9' */
