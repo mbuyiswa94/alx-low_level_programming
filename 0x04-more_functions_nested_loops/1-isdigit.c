@@ -1,17 +1,12 @@
 #include "main.h"
 
-int _putchar(char c);
-
-int _isdigit(int c);
-
+/**
+ * _isdigit - Check if a character is a digit (0 through 9).
+ * @c: The character to be checked.
+ *
+ * Return: 1 if c is a digit, 0 otherwise.
+ */
+int _isdigit(int c)
 {
-	/* Check if c is within the ASCII range for digits '0' to '9' */
-	if (c >= 48 && c <= 57)
-	{
-	return (1);
-	}
-	else
-	{
-	return (0);
-	}
+	return (c >= '0' && c <= '9');
 }
