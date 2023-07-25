@@ -1,20 +1,21 @@
-#include "main.h"
 #include <stdio.h>
+#include <string.h>
+#include "main.h"
 
 /**
- * _strlen - Calculates the length of a string
- * @str: The input string
+ * main - Entry point
  *
- * Return: The length of the string
+ * Return: Always 0.
  */
-int _strlen(char *str)
+int main(void)
 {
-	int len = 0;
+	char str1[] = "Hello, World!";
+	char str2[] = "Testing";
+	char str3[] = "Programming";
 
-	while (*str != '\0')
-	{
-	len++;
-	str++;
-	}
-	return (len);
+	puts_half(str1);
+	puts_half(str2);
+	puts_half(str3);
+
+	return (0);
 }
