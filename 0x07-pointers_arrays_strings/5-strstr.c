@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strstr - finds the first occurrence of the substring needle in the string haystack
+ * _strstr - finds the first occurrence of the substring needle in the string
  * @haystack: the string to search in
  * @needle: the substring to find
  *
- * Return: pointer to the beginning of the located substring, or NULL if the substring is not found
+ * Return: pointer to the beginning of the located substring
  */
 char *_strstr(char *haystack, char *needle)
 {
